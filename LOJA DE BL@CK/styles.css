@@ -1,0 +1,286 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .icon {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container2 {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .footer-links {
+            margin-top: 10px;
+        }
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer-icons .fab {
+            font-size: 24px;
+            margin: 0 5px;
+        }
+
+
+        .button-container {
+            overflow-x: auto; /* Adiciona barra de rolagem horizontal quando necessário */
+            white-space: nowrap; /* Impede que os botões quebrem para a próxima linha */
+            margin-top: 20px;
+        }
+        .button-container::-webkit-scrollbar {
+            height: 10px; /* Altura da barra de rolagem */
+        }
+        .button-container::-webkit-scrollbar-thumb {
+            background-color: rgba(161, 161, 161, 0.847); /* Cor do polegar da barra de rolagem */
+        }
+        .button-container button {
+            display: inline-block; /* Permite que os botões fiquem na mesma linha */
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button-container button:hover {
+            background-color: #45a049;
+        }
+
+        .container3 {
+            display: flex; /* Define um layout de flexbox */
+            
+            padding: 10px;
+        }
+        .column {
+            flex: 1;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-sizing: border-box;
+            margin: 1px 1px;
+        }
+        
+        #coluna1 {
+            background-color: #33333352;
+            flex: 0 0 20%; /* Define a largura da coluna 1 como 30% do espaço disponível */
+        }
+        #coluna2 {
+            flex: 0 0 20%;
+        }
+        
+        #coluna3 {
+            flex: 0 0 20%; /* Define a largura da coluna 2 como 60% do espaço disponível */
+        }
+        
+        .input-group {
+            margin-bottom: 10px;
+        }
+        
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .input-group input {
+            width: calc(100% - 99px);
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            outline: none;
+        }
+        
+        .input-group button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .input-group button:hover {
+            background-color: #45a049;
+        }
+        .button-example {
+            margin-bottom: 10px;
+        }
+        
+        .button-example button {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .button-example button:hover {
+            background-color: #e5e5e5;
+        }
+        
+        .button-example button img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+        
+        .button-example button span {
+            font-weight: bold;
+        }
+
+        .post {
+            margin-top: 5px;
+            border: 1px solid black;
+            padding-bottom: 10px; /* Adiciona um espaçamento entre as postagens */
+        }
+        
+        .user-info {
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .user-info img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin: 5px;
+        }
+        
+        .username {
+            font-weight: bold;
+        }
+        
+        .post img {
+            border-radius: 5px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        
+       
+.actions {
+    border: 1px solid black;
+    margin-top: 5px;
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo dos botões */
+}
+
+.like-btn, .comment-btn, .share-btn {
+    background-color: #3b5998;
+    margin-left: 35px;
+    margin-right: 75px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-bottom: 10px; /* Adiciona um espaçamento entre os botões */
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Centraliza o texto verticalmente */
+}
+
+.like-btn i, .comment-btn i, .share-btn i {
+    margin-right: 10px; /* Adiciona um espaçamento entre o ícone e o texto */
+}
+
+.likes {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.invoice {
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.invoice h3 {
+    margin-top: 0;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.product-list li i {
+    margin-right: 10px;
+}
+
+.total {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.download-btn {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.download-btn i {
+    margin-right: 10px;
+}
+
+  
